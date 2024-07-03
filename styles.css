@@ -1,0 +1,108 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(Imagenes/walking-1868652_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Estilos del encabezado */
+  header, footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  main {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header img {
+    border-radius: 50%; /* Agrega un borde redondo a la imagen */
+    width: 50px; /* Reduce el tamaño de la imagen */
+    height: 50px; /* Reduce el tamaño de la imagen */
+    margin-bottom: 10px; /* Agrega un espacio entre la imagen y el h1 */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #1a1c27;
+  }
+  
+  header p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: #1a1c27;
+  }
+  
+  /* Estilos de los enlaces */
+  .link-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  a.link-button {
+    display: flex;
+    align-items: center;
+    background-color: #e6e6e6e2;
+    color: #1a1c27;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  a.link-button:hover {
+    transform: translateY(-5px);
+    background-color: #dadadaaf;
+  }
+  
+  .link-button img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .link-button span {
+    font-size: 16px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    color: #1a1c27;
+    padding: 0%;
+    text-align: center;
+    font-size:  13px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /* Estilos del main */
+  main {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
